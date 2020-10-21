@@ -1,0 +1,11 @@
+{% sw_extends '@Storefront/storefront/base.html.twig' %}
+
+{% block base_main %}
+    <div class="container">
+
+        {# Entry point for the Vue.js application #}
+        {% verbatim %}
+            <div id="app"><Counter /></div>
+        {% endverbatim %}
+    </div>
+{% endblock %}
